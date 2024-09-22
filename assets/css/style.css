@@ -1,0 +1,40 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.err{
+    color: brown;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;   
+    margin: 150px auto 0;
+    gap: 15px;
+
+    /* justify-content: center; */
+}
+form input{
+    border-radius: 20px;
+    height: 25px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    color: green;
+    text-align: center;
+}
+.btn{
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(69, 69, 69);
+    color: aliceblue;
+    margin: 0 auto;
+}
+.btn:hover{
+    background-color:  rgb(21, 21, 21);;
+}
